@@ -1,0 +1,128 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body {
+    font-family: Roboto;
+}
+
+h1 {
+    color: #20a8b4;
+    margin: 0;
+}
+
+span {
+    color: #ff5c0f;
+}
+
+#header {
+    background-color: #F2F2F2;
+    padding: 16px;
+    max-width: 100%;
+    margin: -10px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Roboto;
+    color: #000;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.nav {
+    color: #000;
+}
+
+#footer {
+    margin-top: 100px;
+    padding: 0px 6px;
+}
+
+button {
+    background-color: #20a8b4;
+    color: #fff;
+    border-width: 0;
+    padding: 12px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.nav:hover {
+    color: #ff5c0f;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+.image {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image {
+        display: flex;
+        width: 550px;
+    }
+
+    li {
+        margin-top: 100%;
+        display: inline;
+        margin-right: 5px;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    button {
+        width: auto;
+    }
+
+    #contact-btn {
+        display: inline;
+    }
+
+    #header-links {
+        display: flex;
+        column-gap: 8px;
+        align-items: center;
+    }
+  }
